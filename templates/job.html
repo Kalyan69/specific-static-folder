@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOB</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+    <link rel="stylesheet" href="{% static 'css/c2.css' %}">
+</head>
+<body>
+    <center>
+        <h1>JOB</h1>
+        <img src="{% static 'images/image1.jpg' %}" alt="loading image" height="200px" width="250px">
+        <br>
+        <br>
+        <br>
+        <a class="btn" href="{% url 'kalyan' %}">Apply for job</a>
+    </center>
+</body>
+</html>

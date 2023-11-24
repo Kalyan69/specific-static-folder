@@ -1,5 +1,21 @@
-h1
+h1, h2
 {
     color: blue;
     
+}
+h3
+{
+    color: red;
+}
+
+.btn{
+    border-radius: 10px;
+    background-color: greenyellow;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.btn:hover{
+    background-color: rgb(120, 197, 4);
+    transition: 0.5s;
 }
