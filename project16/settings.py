@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 import os
 TEMPLATES_DIR = os.path.join(BASE_DIR,'templates')
 # STATIC_ROOT = os.path.join(BASE_DIR,'static')
-
+# ( This path belongs to generic ^ (STATIC_ROOT))
 STATIC_DIR_project16 = os.path.join(os.path.join(BASE_DIR,'project16'),'static')
 
 STATIC_DIR_app = os.path.join(os.path.join(BASE_DIR,'app'),'static')
